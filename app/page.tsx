@@ -53,23 +53,24 @@ function ProjectVideo({ src }: ProjectVideoProps) {
       }}
     >
       <MorphingDialogTrigger>
-        <video
+        <img
           src={src}
-          autoPlay
-          loop
-          muted
-          className="aspect-video w-full cursor-zoom-in rounded-xl"
+          className="aspect-video w-full cursor-zoom-in rounded-xl object-cover object-top"
         />
       </MorphingDialogTrigger>
       <MorphingDialogContainer>
         <MorphingDialogContent className="relative aspect-video rounded-2xl bg-zinc-50 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950 dark:ring-zinc-800/50">
-          <video
+          <img
+            src={src}
+            className="aspect-video h-[50vh] w-full rounded-xl object-contain md:h-[70vh]"
+          />
+          {/* <video
             src={src}
             autoPlay
             loop
             muted
             className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]"
-          />
+          /> */}
         </MorphingDialogContent>
         <MorphingDialogClose
           className="fixed top-6 right-6 h-fit w-fit rounded-full bg-white p-1"
@@ -137,8 +138,9 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            Frontend designer and developer crafting simple, minimal, and
+            intuitive interfaces. Focused on aesthetics, usability, and seamless
+            interactions.
           </p>
         </div>
       </motion.section>
@@ -214,7 +216,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-3 text-lg font-medium">Blog</h3>
+        <h3 className="mb-3 text-lg font-medium">Notes & More</h3>
         <div className="flex flex-col space-y-0">
           <AnimatedBackground
             enableHover

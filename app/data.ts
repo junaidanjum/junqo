@@ -29,91 +29,76 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'sapiens',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'A curated collection of unique individuals across the internet.',
+    link: 'https://sapiens.website/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'https://ph-files.imgix.net/00d19f47-3db2-4a3a-ba7a-4c17426e395a.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&fm=pjpg&w=1100&h=642&fit=max&frame=1&dpr=2',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'webrew',
+    description:
+      'A no-frills brewing timer app, built purely for the love of coffee.',
+    link: 'https://webrew.vercel.app/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://ph-files.imgix.net/21eb4456-4fa4-4def-955d-babcd5551dff.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=929&h=720&fit=max&frame=1&dpr=2',
     id: 'project2',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'Bell Energy',
+    title: 'Lead Software Architect',
+    start: '2021',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://bell-energy.com',
     id: 'work1',
   },
   {
-    company: 'Freelance',
+    company: 'Bell Immersive',
     title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    start: '2021',
+    end: 'Present',
+    link: 'https://bellimmersive.com',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    company: 'GraphicWeave',
+    title: 'Front End Developer',
+    start: '2020',
+    end: '2021',
+    link: 'https://graphicweave.com',
     id: 'work3',
   },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-1',
-  },
-  {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
-  },
-  {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'Now',
+    description: 'A brief overview of my current work and projects',
+    link: '/blog/now',
     uid: 'blog-3',
+  },
+  {
+    title: 'The endless loop of app development',
+    description: 'How a simple app grows legs and arms and becomes a monster',
+    link: '/blog/endless-loop',
+    uid: 'blog-2',
   },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/junaidanjum',
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
-  },
-  {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    label: 'Bluesky',
+    link: 'https://bsky.app/profile/junaidanjum.posts.cv',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'junaidanjum@live.com'
